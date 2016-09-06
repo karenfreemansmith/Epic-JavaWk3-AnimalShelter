@@ -6,4 +6,8 @@ class Animal {
   public boolean mHouseBroke;
   public boolean mFixed;
   public boolean mShots;
+
+  public boolean adultPet() {
+    return(mAge>0);
+  }
 }
